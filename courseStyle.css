@@ -1,0 +1,556 @@
+:root {
+    --borderRadius: 0;
+    --borderRadius2: 5px;
+    --color1: #FFBD35;
+    --color2: #282C2E;
+    --color3: #502064;
+    --color4: #0078AA;
+}
+
+* {
+    box-sizing: border-box !important;
+    border: none;
+}
+
+/* ??? */
+
+.page-banner .alert.alert-warning {
+    display: none;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav {
+    display: none;
+}
+
+header.global-header {
+    display: none;
+}
+
+/* ??? */
+
+
+
+/* scroll */
+.scrollIndicator {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    z-index: 100 !important;
+    width: 100%;
+    background: #222;
+}
+
+.progress-barscrollIndicator {
+    height: 10px;
+    width: 0%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #FFBD35;
+
+}
+
+
+/* containers */
+
+/* Generall BG */
+.view-in-course .window-wrap {
+    background: url('/static/bg3.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.course-wrapper .course-content,
+.course-wrapper .courseware-results-wrapper {
+    border-radius: var(--borderRadius);
+}
+
+body.view-in-course .course-wrapper {
+    border: none;
+    border-radius: var(--borderRadius);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* top menu */
+.page-header {
+    padding: 12px;
+}
+
+body .breadcrumbs .nav-item a,
+.breadcrumbs .nav-item a:visited {
+    color: #999;
+}
+
+.fullscreen-button {
+    fill: #EF3D1F;
+}
+
+/* bookmark */
+body .course-content .bookmark-button-wrapper .bookmark-button {
+    color: #333;
+}
+
+
+/* divider */
+.course-wrapper .course-content .vert-mod .vert,
+.course-wrapper .courseware-results-wrapper .vert-mod .vert {
+    border: none;
+}
+
+
+/* video */
+.xmodule_display.xmodule_VideoBlock .video {
+    margin: 0;
+    background-color: var(--color2);
+    background-image: url('/static/roads2.svg');
+    background-size: 50%;
+    background-position: center
+}
+
+/*BTNS*/
+
+.xmodule_display.xmodule_SequenceModule .sequence-bottom {
+    justify-content: space-between;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-bottom .sequence-nav-button {
+    transition: all 0.3s ease-in-out;
+    background-color: var(--color2);
+    color: #fff;
+    box-shadow: -5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+    border-radius: var(--borderRadius2);
+    border: none !important;
+    background-image: url('/static/carbon3.png');
+    background-size: 100%;
+    background-position: center;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-bottom .sequence-nav-button:hover {
+    background-color: var(--color1);
+    color: #fff;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-bottom .sequence-nav-button span,
+.xmodule_display.xmodule_SequenceModule .sequence-bottom .sequence-nav-button span::before {
+    color: #fff;
+}
+
+/********************QUIZES*****************/
+
+/********************QUIZES*****************/
+
+
+/** sticky menu **/
+#content>div.container>div>div {
+    display: block;
+    position: sticky;
+    top: 10px;
+}
+
+
+
+
+
+
+.title-and-icon,
+.first-title {
+    padding: 10px;
+    border-radius: var(--borderRadius2);
+    background-color: var(--color4);
+    ;
+    background-image: url('//courses.campus.gov.il/assets/courseware/v1/d7535234f256d7ec8c6f25e4312cba27/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block/roads6.svg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: left 50%;
+    color: #fff;
+    font-weight: bolder;
+    position: relative;
+
+}
+
+.xmodule_display.xmodule_HtmlBlock h3.first-title,
+.xmodule_display.xmodule_HtmlBlock h3.title-and-icon {
+    margin-bottom: 30px;
+}
+
+.title-and-icon div,
+.first-title div {
+    border-bottom: 0px dashed var(--color1);
+}
+
+.xmodule_display.xmodule_HtmlBlock h3.title-and-icon {
+    margin-right: 10px;
+    padding-right: 60px;
+    background-position: left 65%;
+}
+
+.title-and-icon div {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 6px;
+    right: -15px;
+    background-color: var(--color4);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid #fff;
+    transform: rotate(4deg);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.title-and-icon div img {
+    margin: auto;
+}
+
+.second-title {
+    border-bottom: 2px dashed var(--color1);
+    display: inline-block;
+
+}
+
+.course-wrapper .course-content .vert-mod>div ul.weel-list {
+    padding-right: 40px;
+}
+
+.weel-list li {
+    list-style-image: url('//courses.campus.gov.il/assets/courseware/v1/a0d014e6f9ad9f07188c147246b774d3/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block/blt.svg');
+}
+
+.course-wrapper .course-content .text-container p {
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+/* TEXT AND TITLES */
+.title-and-icon,
+.first-title {
+    padding: 10px;
+    border-radius: var(--borderRadius2);
+    background-color: var(--color4);
+    ;
+    background-image: url('//courses.campus.gov.il/assets/courseware/v1/d7535234f256d7ec8c6f25e4312cba27/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block/roads6.svg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: left 50%;
+    color: #fff;
+    font-weight: bolder;
+    position: relative;
+
+}
+
+.xmodule_display.xmodule_HtmlBlock h3.first-title,
+.xmodule_display.xmodule_HtmlBlock h3.title-and-icon {
+    margin-bottom: 30px;
+}
+
+.title-and-icon div,
+.first-title div {
+    border-bottom: 0px dashed var(--color1);
+}
+
+.xmodule_display.xmodule_HtmlBlock h3.title-and-icon {
+    margin-right: 10px;
+    padding-right: 60px;
+    background-position: left 65%;
+}
+
+.title-and-icon div {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 6px;
+    right: -15px;
+    background-color: var(--color4);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid #fff;
+    transform: rotate(4deg);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.title-and-icon div img {
+    margin: auto;
+}
+
+.second-title {
+    border-bottom: 2px dashed var(--color1);
+    display: inline-block;
+
+}
+
+.course-wrapper .course-content .vert-mod>div ul.weel-list {
+    padding-right: 40px;
+}
+
+.weel-list li {
+    list-style-image: url('//courses.campus.gov.il/assets/courseware/v1/a0d014e6f9ad9f07188c147246b774d3/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block/blt.svg');
+}
+
+.course-wrapper .course-content .text-container p {
+    padding: 0 20px;
+}
+
+/* TITLES */
+
+/* main title */
+.xblock .xblock h2 {
+    background-color: var(--color1);
+    background-size: 20%;
+    background-position: center;
+    padding: 10px 10px;
+    color: var(--color2);
+    border-radius: var(--borderRadius2);
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+}
+
+/* video-title */
+h3.hd-3,
+h3.hd-2 {
+    background: var(--color3);
+    margin-right: 10px;
+    padding: 10px;
+    padding-right: 60px;
+    color: #fff;
+    border-radius: var(--borderRadius2);
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url('/static/roads6.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+h3.hd-3::after,
+h3.hd-2::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -25px;
+    right: -15px;
+    background-color: var(--color3);
+    background-image: url('/static/clip1.svg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid #fff;
+    transform: rotate(4deg);
+    border-radius: 8px;
+}
+
+
+/* video-title */
+
+h3.hd-3::after {
+    background-image: url('/static/quiz1.svg');
+}
+
+
+
+/* RIGHT SECTION */
+
+/* top menu*/
+body.view-in-course .wrapper-course-material .course-material {
+    overflow: hidden;
+    width: 76.3%;
+    margin-left: 0;
+}
+
+
+.wrapper-course-material .course-material .course-tabs .tab a:hover,
+.wrapper-course-material .course-material .course-tabs .tab a:visited:hover {
+    color: var(--color1) !important;
+    border-bottom-color: var(--color1) !important;
+}
+
+.wrapper-course-material .course-material .course-tabs .tab a,
+.wrapper-course-material .course-material .course-tabs .tab a:visited,
+.wrapper-course-material .course-material .course-tabs .tab a:visited {
+    color: #fff;
+}
+
+body .wrapper-course-material .course-material .course-tabs .tab a.active {
+    color: var(--color1);
+    border-bottom-color: var(--color1);
+}
+
+/* menu section*/
+.container .course-index {
+    background-color: rgba(0, 0, 0, 0);
+    background-color: none;
+    border: none;
+    padding-left: 10px;
+}
+
+/* menu */
+nav.course-navigation {
+    background-color: none;
+    background: url('/static/roads3.svg');
+    background-size: 100%;
+    background-position: center;
+}
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu {
+    background: none;
+    overflow: visible !important;
+}
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu {
+    overflow: visible !important;
+}
+
+.course-index .accordion .course-navigation .button-chapter.is-open {
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.course-index .accordion .course-navigation .chapter-content-container {
+    background: rgba(0, 0, 0, 0);
+}
+
+nav.course-navigation {
+    background-color: #eee;
+    border-bottom-left-radius: var(--borderRadius2);
+    border-bottom-right-radius: var(--borderRadius2);
+    border: none;
+}
+
+
+/*menu items*/
+body .course-index .accordion .course-navigation .button-chapter {
+    color: #222;
+    background: rgba(250, 250, 250, 0);
+    border-radius: var(--borderRadius2);
+}
+
+body.rtl .course-index .accordion .course-navigation .button-chapter .group-heading {
+    color: #222;
+    background: rgba(250, 250, 250, 0);
+    border-radius: var(--borderRadius2);
+}
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item {
+    background: none;
+}
+
+body .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
+    border-radius: 0;
+    border-right: 2px dashed var(--color2);
+}
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active a {
+    background: none;
+}
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active a::after {
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: url('/static/location1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -24px;
+    top: 0px;
+}
+
+
+/* bookmark and search */
+.wrapper-course-modes {
+    background: #fff;
+    border-top-left-radius: var(--borderRadius2);
+    border-top-right-radius: var(--borderRadius2);
+}
+
+.search-bar .search-button {
+    background: var(--color2);
+}
+
+.search-bar .search-button:hover {
+    background: var(--color1) !important;
+}
+
+body .courseware-bookmarks-button .bookmarks-list-button {
+    color: var(--color2) !important;
+    border-color: var(--color2) !important;
+}
+
+body .courseware-bookmarks-button .bookmarks-list-button:hover {
+    background: var(--color1) !important;
+    color: var(--color2) !important;
+    border-color: var(--color2) !important;
+}
+
+body.view-in-course .wrapper-course-material .course-material .course-tabs {
+    /*display: none;*/
+}
+
+.course-content .bookmark-button-wrapper {
+    /*display: none;*/
+}
+
+
+/* in-video quiz */
+#seq_content .vert-mod .vert.in-video-problem-wrapper .in-video-problem {
+    background: rgba(0, 0, 0, .7);
+    width: 100% !important;
+    border: 1px solid #000;
+    padding: 0;
+}
+
+.in-video-continue {
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/*MULTIPLE CHOICE*/
+/*wrapper*/
+.xmodule_display.xmodule_ProblemBlock div.problem {
+    padding: 20px;
+    border-radius: var(--borderRadius2);
+
+    width: calc(100% - 5px);
+}
+
+/*label*/
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup legend {
+    border-bottom: 2px dashed var(--color1);
+    display: inline-block;
+
+}
+
+/*choises*/
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup label {
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: var(--borderRadius2);
+    background: #fff;
+    box-shadow: -5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    width: calc(100% - 5px);
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup label:hover {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem-progress {
+    display: none;
+}
+
+/*submit btn*/
+.btn-brand {
+    box-shadow: -5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
