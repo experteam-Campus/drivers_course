@@ -554,3 +554,8 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
     box-shadow: -5px 5px 0px 0px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease-in-out;
 }
+
+/* hotspot q */
+.xblock.xmodule_display.xmodule_ProblemBlock .problem .imageinput+div, .xblock.xmodule_display.xmodule_ProblemBlock .problem .wrapper-problem-response {
+    overflow-x: unset;
+}
