@@ -572,3 +572,137 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
 /*.checkwithpic1 fieldset {
     direction: ltr;
 }*/
+
+
+  /* title(instruction) */
+ .quest-text{
+  color: #777;
+    background: #fff;
+    border-radius: 5px;
+   padding: 10px;
+    direction: rtl;
+    display:flex;
+    border: 2px dashed #777;
+    
+     }
+ .quest-text span{
+   display: flex;
+    align-self: center;
+  }
+ .quest-text::before{
+    content:'';
+     background-image: url('//courses.campus.gov.il/assets/courseware/v1/925515c76f1885044e6fcd98379e3cac/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block/blt2.png');
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:3em;
+    height:3em;
+    display:block;
+    margin-left:10px;
+    float:right;
+     }
+  
+  
+  
+  
+  /********************QUIZES*****************/
+
+  /*QUIZ CONTAINER*/
+.xblock-student_view-drag-and-drop-v2, .xmodule_display.xmodule_ProblemBlock div.problem {
+  padding:10px;
+    border: 4px solid #777;
+    border-radius: 5px;
+    background: #ddd;
+ }
+  
+  .xblock.xmodule_display.xmodule_ProblemBlock .problem .wrapper-problem-response{
+  overflow:hidden;
+  }
+  
+  /*additional info and problem title*/
+.in-video-problem .hd-3{
+  display:none;
+}
+  .xmodule_display.xmodule_ProblemBlock div.problem-progress{
+  display:none;
+}
+  
+  .xblock--drag-and-drop .problem-progress {
+    display: none;
+}
+
+  .keyboard-help-button {
+    visibility: hidden;
+}
+  
+  /*BTNS*/
+  .xmodule_display.xmodule_ProblemBlock div.problem .action .submit-attempt-container .submit{
+    width:120px;
+    height:40px;
+  margin-left: 0;
+    float: left;
+  }
+ 
+  .xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-btn{
+ margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    background: #eee;
+    max-width: 120px;
+  }
+   
+ .xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-buttons-wrapper,
+  .xmodule_display.xmodule_ProblemBlock div.problem .action .submit-attempt-container{
+  padding:0;
+    margin:0;
+  }
+ 
+  .xmodule_display.xmodule_ProblemBlock div.problem .action{
+     flex-wrap: nowrap;
+  }
+  
+  .xmodule_display.xmodule_ProblemBlock div.problem .action .submission-feedback{
+    margin:0;
+    padding:0;
+  }
+  
+      /*title on problem header*/
+  .hd-3.problem-header{
+    background:#222;
+    padding:20px;
+    color:#fff;
+    border-radius:5px;
+  display:none;
+  }
+  
+  /*checkbox labels*/
+  .xmodule_display.xmodule_ProblemBlock div.problem .choicegroup label{
+  background:#ccc;
+  }
+  
+  /*explanation*/
+  .detailed-solution{
+    background-color:#ccc;
+    border-radius:5px;
+    padding:10px;
+  }
+  
+  
+   /*IN-VIDEO QUIZ*/ 
+  #seq_content .vert-mod .vert.in-video-problem-wrapper .in-video-problem{
+   width:100% !important;
+    background:rgba(250,250,250,0.8);
+    padding:5px;
+  }
+  
+  .in-video-continue{
+  width:120px;
+    height:40px;
+    float:left;
+   margin-top:10px;
+  }
+  
+  /*IN-VIDEO HOTSPOT*/
+  .xblock.xmodule_display.xmodule_ProblemBlock .problem .imageinput+div {
+  overflow:hiden;
+     }
