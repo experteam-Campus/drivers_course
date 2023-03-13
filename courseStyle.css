@@ -643,6 +643,11 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
   .keyboard-help-button {
     visibility: hidden;
 }
+
+#sequence_5122f7a14a904e8fba4cc541be9f3aca .xblock--drag-and-drop .drag-container .option {
+    padding: 4px;
+    font-size: 13px;
+}
   
   /*BTNS*/
   .xmodule_display.xmodule_ProblemBlock div.problem .action .submit-attempt-container .submit{
