@@ -512,7 +512,7 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
     height: 40px;
     position: absolute;
     left: 44%;
-    bottom: -53%;
+    /*bottom: -53%;*/
 }
 
 /*MULTIPLE CHOICE*/
