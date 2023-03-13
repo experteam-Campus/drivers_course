@@ -568,3 +568,7 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
     width: 10.6%;
     display: inline-block;
 }
+
+.checkwithpic1 fieldset {
+    direction: ltr;
+}
