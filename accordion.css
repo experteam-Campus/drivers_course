@@ -108,6 +108,11 @@ table tr:hover {
     border: #142654 solid 2px;
 }
 
+.accordion2.active {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
 .accordion2.active .arrowImg {
     width: 15px;
     background-image: url(https://courses.campus.gov.il/asset-v1:TAU+ACD_RFP4_TAU_math101+2020_1+type@asset+block@Artboard_21-8.png);
@@ -131,8 +136,8 @@ div.panel1 {
 }
 
 div.panel2 {
-    padding: 0px 18px 0px 0px;
-    width: 98.5% !important;
+    padding: 0px 18px;
+    width: 98% !important;
     background-color: white;
     max-height: 0;
     overflow: hidden;
