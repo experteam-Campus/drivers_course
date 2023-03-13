@@ -610,10 +610,15 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
   /*QUIZ CONTAINER*/
 .xblock-student_view-drag-and-drop-v2, .xmodule_display.xmodule_ProblemBlock div.problem {
   padding:10px;
-    border: 4px solid #777;
+    border: 4px solid #777 !important;
     border-radius: 5px;
-    background: #ddd;
+    background: #ddd !important;
  }
+
+.xblock.xblock-student_view.xblock-student_view-drag-and-drop-v2.xblock-initialized.in-video-problem {
+    max-width: 98%;
+    margin-right: 1%;
+}
   
   .xblock.xmodule_display.xmodule_ProblemBlock .problem .wrapper-problem-response{
   overflow:hidden;
