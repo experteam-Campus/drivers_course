@@ -230,7 +230,8 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 
 /* TEXT AND TITLES */
 .title-and-icon,
-.first-title {
+.first-title,
+.accordion2 {
     padding: 10px;
     border-radius: var(--borderRadius2);
     background-color: var(--color4);
