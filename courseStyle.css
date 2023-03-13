@@ -559,3 +559,12 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
 .xblock.xmodule_display.xmodule_ProblemBlock .problem .imageinput+div, .xblock.xmodule_display.xmodule_ProblemBlock .problem .wrapper-problem-response {
     overflow-x: unset;
 }
+
+.checkwithpic1 label {
+    padding-right: 50px !important;
+}
+
+.checkwithpic1 .field {
+    width: 10.6%;
+    display: inline-block;
+}
