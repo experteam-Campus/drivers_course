@@ -619,6 +619,10 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
     max-width: 98%;
     margin-right: 1%;
 }
+
+.xblock--drag-and-drop .drag-container {
+    max-width: 98% !important;
+}
   
   .xblock.xmodule_display.xmodule_ProblemBlock .problem .wrapper-problem-response{
   overflow:hidden;
