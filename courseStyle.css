@@ -301,7 +301,10 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
     align-items: flex-start;
     justify-content: flex-start;
 }
+.icons-list li span img{
 
+width: 34px;
+}
 /*
 .icons-list li:nth-child(1){
     list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@list_1.png');
