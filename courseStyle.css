@@ -304,6 +304,18 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
     list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@seat_balt.png');
 }
 
+.icons-list li:nth-child(3){
+    list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@car.png');
+}
+
+.icons-list li:nth-child(4){
+    list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@passenger.png');
+}
+
+.icons-list li:nth-child(5){
+    list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@passenger.png');
+}
+
 
 /*.course-wrapper .course-content .text-container p {
     padding: 0 20px;
