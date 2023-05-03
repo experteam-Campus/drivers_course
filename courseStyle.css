@@ -293,6 +293,10 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
     list-style-image: url('//courses.campus.gov.il/assets/courseware/v1/a0d014e6f9ad9f07188c147246b774d3/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block/blt.svg');
 }
 
+#sign {
+    list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@Sign.png');
+}
+
 /*.course-wrapper .course-content .text-container p {
     padding: 0 20px;
 }*/
