@@ -296,6 +296,11 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
     list-style-image: url('//courses.campus.gov.il/assets/courseware/v1/a0d014e6f9ad9f07188c147246b774d3/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block/blt.svg');
 }
 
+.icons-list li {
+display:flex;
+}
+
+/*
 .icons-list li:nth-child(1){
     list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@list_1.png');
 }
@@ -376,6 +381,9 @@ width: 3px !important;
 width: 3px !important;
     height: 3px !important;
 }
+*/
+
+
 
 /*.course-wrapper .course-content .text-container p {
     padding: 0 20px;
