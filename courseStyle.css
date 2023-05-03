@@ -297,6 +297,11 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
     list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@Sign.png');
 }
 
+#balt {
+    list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@seat_balt.png');
+}
+
+
 /*.course-wrapper .course-content .text-container p {
     padding: 0 20px;
 }*/
