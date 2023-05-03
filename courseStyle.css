@@ -297,7 +297,9 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 }
 
 .icons-list li {
-display:flex;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 /*
