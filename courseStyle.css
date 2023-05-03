@@ -301,7 +301,7 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 }
 
 .icons-list li:nth-child(1)::marker{
- width: 5px;
+ width: 3px;
 }
 
 .icons-list li:nth-child(2){
@@ -309,7 +309,7 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 }
 
 .icons-list li:nth-child(2)::marker{
- width: 5px;
+ width: 3px;
 }
 
 .icons-list li:nth-child(3){
@@ -317,7 +317,7 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 }
 
 .icons-list li:nth-child(3)::marker{
- width: 5px;
+ width: 3px;
 }
 
 .icons-list li:nth-child(4){
@@ -325,7 +325,7 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 }
 
 .icons-list li:nth-child(4)::marker{
- width: 5px;
+ width: 3px;
 }
 
 .icons-list li:nth-child(5){
@@ -333,7 +333,7 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 }
 
 .icons-list li:nth-child(5)::marker{
- width: 5px;
+ width: 3px;
 }
 
 .icons-list li:nth-child(6){
@@ -341,7 +341,7 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 }
 
 .icons-list li:nth-child(6)::marker{
- width: 5px;
+ width: 3px;
 }
 
 .icons-list li:nth-child(7){
@@ -349,7 +349,7 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 }
 
 .icons-list li:nth-child(7)::marker{
- width: 5px;
+ width: 3px;
 }
 
 .icons-list li:nth-child(8){
@@ -357,7 +357,7 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 }
 
 .icons-list li:nth-child(8)::marker{
- width: 5px;
+ width: 3px;
 }
 
 .icons-list li:nth-child(9){
@@ -365,7 +365,7 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 }
 
 .icons-list li:nth-child(9)::marker{
- width: 5px;
+ width: 3px;
 }
 
 /*.course-wrapper .course-content .text-container p {
