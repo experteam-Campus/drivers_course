@@ -808,11 +808,11 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
   overflow:hiden;
      }
 
-  h3.hd-3::after{
+.Q_title::after{
      background-image:url('/static/quiz1.svg');
   }
 
-h3.hd-3::after, h3.hd-2::after {
+.Q_title::after {
     content: '';
     position: absolute;
     width: 60px;
@@ -829,7 +829,7 @@ h3.hd-3::after, h3.hd-2::after {
     border-radius: 8px;
 }
 
-h3.hd-3, h3.hd-2 {
+.Q_title {
     background: var(--color3);
     margin-right: 10px;
     padding: 10px;
