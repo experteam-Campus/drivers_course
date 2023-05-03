@@ -296,8 +296,16 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
     list-style-image: url('//courses.campus.gov.il/assets/courseware/v1/a0d014e6f9ad9f07188c147246b774d3/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block/blt.svg');
 }
 
-.icons-list li:nth-child(1){
+.icons-list li:nth-child(0){
     list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@Sign.png');
+}
+
+.icons-list li:nth-child(0)::marker{
+ width: 10px;
+}
+
+.icons-list li:nth-child(1){
+    list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@seat_balt.png');
 }
 
 .icons-list li:nth-child(1)::marker{
@@ -305,7 +313,7 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 }
 
 .icons-list li:nth-child(2){
-    list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@seat_balt.png');
+    list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@car.png');
 }
 
 .icons-list li:nth-child(2)::marker{
@@ -313,7 +321,7 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 }
 
 .icons-list li:nth-child(3){
-    list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@car.png');
+    list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@passenger.png');
 }
 
 .icons-list li:nth-child(3)::marker{
@@ -325,14 +333,6 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 }
 
 .icons-list li:nth-child(4)::marker{
- width: 10px;
-}
-
-.icons-list li:nth-child(5){
-    list-style-image: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@passenger.png');
-}
-
-.icons-list li:nth-child(5)::marker{
  width: 10px;
 }
 
