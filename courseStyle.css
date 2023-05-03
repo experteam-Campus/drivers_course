@@ -809,7 +809,7 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
      }
 
 .Q_title::after{
-     background-image:url('/static/quiz1.svg');
+     background-image:url('https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@quiz1.svg');
   }
 
 .Q_title::after {
@@ -820,7 +820,7 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
     top: -25px;
     right: -15px;
     background-color: var(--color3);
-    background-image: url(//courses.campus.gov.il/assets/courseware/v1/69ba9c2…/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block/clip1.svg);
+    background-image: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@clip1.svg);
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
@@ -838,7 +838,7 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
     border-radius: var(--borderRadius2);
     margin-bottom: 10px;
     position: relative;
-    background-image: url(//courses.campus.gov.il/assets/courseware/v1/d753523…/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block/roads6.svg);
+    background-image: url(https://courses.campus.gov.il/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block@roads6.svg);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: left center;
