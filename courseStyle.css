@@ -807,3 +807,39 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
   .xblock.xmodule_display.xmodule_ProblemBlock .problem .imageinput+div {
   overflow:hiden;
      }
+
+  h3.hd-3::after{
+     background-image:url('/static/quiz1.svg');
+  }
+
+h3.hd-3::after, h3.hd-2::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -25px;
+    right: -15px;
+    background-color: var(--color3);
+    background-image: url(//courses.campus.gov.il/assets/courseware/v1/69ba9c2…/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block/clip1.svg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid #fff;
+    transform: rotate(4deg);
+    border-radius: 8px;
+}
+
+h3.hd-3, h3.hd-2 {
+    background: var(--color3);
+    margin-right: 10px;
+    padding: 10px;
+    padding-right: 60px;
+    color: #fff;
+    border-radius: var(--borderRadius2);
+    margin-bottom: 10px;
+    position: relative;
+    background-image: url(//courses.campus.gov.il/assets/courseware/v1/d753523…/asset-v1:Labor+GOV_260T_CommunalDriver_HE+2022_1+type@asset+block/roads6.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
