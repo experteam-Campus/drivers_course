@@ -301,11 +301,12 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
     align-items: flex-start;
     justify-content: flex-start;
 }
-.icons-list li span img{
 
+.icons-list li  img{
 width: 34px;
 }
-.icons-list li span {
+
+.icons-list li {
 width: 50px;
 margin-left: 10px;
 }
