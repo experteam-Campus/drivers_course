@@ -880,3 +880,15 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
     z-index: 10 !important;
     -webkit-touch-callout: none;
 }
+
+h3#word_cloud_61d68f1d19e44254a2bbc6f8726da0ee_heading {
+    display: none;
+}
+
+div#word_cloud_61d68f1d19e44254a2bbc6f8726da0ee_instructions {
+    margin-bottom: 15px;
+}
+
+button.save {
+    margin-top: 15px;
+}
