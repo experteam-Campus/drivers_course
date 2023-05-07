@@ -858,3 +858,25 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
     background-repeat: no-repeat;
     background-position: left center;
 }
+
+
+.xblock--drag-and-drop .drag-container .option {
+    display: inline-block;
+    width: auto;
+    min-width: 4em;
+    max-width: 100%;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #1d5280;
+    font-size: 14px;
+    color: #fff;
+    opacity: 1;
+    outline-color: #fff;
+    outline-style: none;
+    z-index: 10 !important;
+    -webkit-touch-callout: none;
+}
