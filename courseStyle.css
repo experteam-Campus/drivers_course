@@ -892,3 +892,9 @@ div#word_cloud_61d68f1d19e44254a2bbc6f8726da0ee_instructions {
 button.save {
     margin-top: 15px;
 }
+.xblock.xblock-student_view.xblock-student_view-word_cloud.xblock-initialized {
+    padding: 10px;
+    border: 4px solid #777 !important;
+    border-radius: 5px;
+    background: #ddd !important;
+}
