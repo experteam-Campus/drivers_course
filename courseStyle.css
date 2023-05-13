@@ -718,6 +718,11 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
   
   /********************QUIZES*****************/
 
+div#word_cloud_61d68f1d19e44254a2bbc6f8726da0ee_instructions {
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
   /*QUIZ CONTAINER*/
 .xblock--drag-and-drop .problem p {
     margin-bottom: 1.41575em;
