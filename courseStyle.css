@@ -210,6 +210,12 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 
 }
 
+.second-title-bold {
+    border-bottom: 2px dashed var(--color4);
+    display: inline-block;
+
+}
+
 .course-wrapper .course-content .vert-mod>div ul.weel-list {
     padding-right: 40px;
 }
