@@ -719,6 +719,11 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
   /********************QUIZES*****************/
 
   /*QUIZ CONTAINER*/
+.xblock--drag-and-drop .problem p {
+    margin-bottom: 1.41575em;
+    font-weight: 700;
+}
+
 .xblock-student_view-drag-and-drop-v2, .xmodule_display.xmodule_ProblemBlock div.problem {
   padding:10px;
     border: 4px solid #777 !important;
