@@ -725,7 +725,7 @@ body.view-in-course .wrapper-course-material .course-material .course-tabs {
 }
 
 
-.xblock--drag-and-drop .problem #31bc227d2aab49699452eb9467e9e4b6-problem-progress p::after {
+#31bc227d2aab49699452eb9467e9e4b6-problem-progress .problem p::after {
     content: 'בחרו את הפעולות הנכונות וסדרו אותן לפי הסדר: ';
     display: inline-block;
 }
