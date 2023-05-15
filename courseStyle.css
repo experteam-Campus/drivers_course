@@ -920,3 +920,7 @@ button.save {
     border-radius: 5px;
     background: #ddd !important;
 }
+
+li{
+    line-height: 1.6em !important;
+}
