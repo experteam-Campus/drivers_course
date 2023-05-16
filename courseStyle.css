@@ -923,3 +923,12 @@ button.save {
 li{
     line-height: 1.6em !important;
 }
+
+
+.pattern-library-shim.alert-message::before {
+    content: "שימו לב עליכם להשלים את המשימה כדי להתקדם למשימה הבאה";
+}
+
+p.pattern-library-shim.alert-copy {
+    display: none;
+}
