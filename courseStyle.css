@@ -211,7 +211,6 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 }
 
 .second-title-bold {
-    border-bottom: 2px dashed var(--color4);
     display: inline-block;
 color: var(--color4);
 }
