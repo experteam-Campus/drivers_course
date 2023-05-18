@@ -932,3 +932,8 @@ li{
 p.pattern-library-shim.alert-copy {
     display: none;
 }
+
+
+.xmodule_display.xmodule_VideoBlock .video .subtitles .subtitles-menu li {
+    color: white;
+}
