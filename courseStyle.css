@@ -942,3 +942,18 @@ p.pattern-library-shim.alert-copy {
     display: block;
     color: white;
 }
+
+
+ /*יישור כתוביות*/
+    .xmodule_display.xmodule_VideoBlock .video .subtitles .subtitles-menu li {
+    direction: ltr;
+}
+  
+    .xmodule_display.xmodule_VideoBlock .video .video-wrapper .closed-captions.is-visible {
+    direction: ltr;
+}
+
+  .xmodule_display.xmodule_VideoBlock .video .subtitles .subtitles-menu li.spacing {
+    direction: rtl;
+}
+ 
