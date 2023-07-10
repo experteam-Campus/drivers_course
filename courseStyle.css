@@ -962,3 +962,7 @@ p.pattern-library-shim.alert-copy {
     color: white;
     direction: rtl;
 }
+
+.xmodule_display.xmodule_VideoBlock .video .video-wrapper .closed-captions.is-visible {
+    direction: rtl !important;
+}
