@@ -1015,3 +1015,7 @@ span.icon.fa.fa-chevron-prev {
     border-bottom: 3px solid #502064;
     background-color: #fffefe;
 }
+
+.xmodule_display.xmodule_VideoBlock .video .video-wrapper .closed-captions.is-visible {
+    direction: ltr !important;
+}
