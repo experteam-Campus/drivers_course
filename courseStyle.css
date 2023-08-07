@@ -1000,3 +1000,17 @@ button.sequence-nav-button.button-next{
     border-bottom: 3px solid #502064;
     background-color: #fffefe;
 }
+
+.fa-chevron-next::before {
+    content: "\f053";
+    color: black;
+}
+
+span.sequence-nav-button-label {
+    color: black;
+}
+
+span.icon.fa.fa-chevron-prev {
+    color: black;
+}
+
