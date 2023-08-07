@@ -996,3 +996,7 @@ button.sequence-nav-button.button-next{
 }
 
 
+.xmodule_display.xmodule_SequenceBlock .sequence-nav button.active {
+    border-bottom: 3px solid #502064;
+    background-color: #fffefe;
+}
