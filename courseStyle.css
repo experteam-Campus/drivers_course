@@ -962,7 +962,7 @@ p.pattern-library-shim.alert-copy {
 .xmodule_display.xmodule_VideoBlock .video .subtitles .subtitles-menu li span {
     display: block;
     color: white;
-    direction: rtl;
+    direction: ltr !important;
 }
 
 
