@@ -106,6 +106,12 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
     background-position: center
 }
 
+
+.xmodule_display.xmodule_VideoBlock .video .video-wrapper .closed-captions.is-visible {
+    color: #f3f3f3;
+}
+
+
 /*BTNS*/
 
 .xmodule_display.xmodule_SequenceModule .sequence-bottom {
