@@ -982,21 +982,21 @@ button.sequence-nav-button.button-next{
 }
 
 @-webkit-keyframes glowing {
-  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
-  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
-  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  0% { background-color: #FFBD35; -webkit-box-shadow: 0 0 3px #FFBD35; }
+  50% { background-color: #FFBD35; -webkit-box-shadow: 0 0 40px #FFBD35; }
+  100% { background-color: #FFBD35; -webkit-box-shadow: 0 0 3px #FFBD35; }
 }
 
 @-moz-keyframes glowing {
-  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
-  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
-  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  0% { background-color: #FFBD35; -moz-box-shadow: 0 0 3px #FFBD35; }
+  50% { background-color: #FFBD35; -moz-box-shadow: 0 0 40px #FFBD35; }
+  100% { background-color: #FFBD35; -moz-box-shadow: 0 0 3px #FFBD35; }
 }
 
 @-o-keyframes glowing {
-  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
-  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
-  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  0% { background-color: #FFBD35; box-shadow: 0 0 3px #FFBD35; }
+  50% { background-color: #FFBD35; box-shadow: 0 0 40px #FFBD35; }
+  100% { background-color: #FFBD35; box-shadow: 0 0 3px #FFBD35; }
 }
 
 
