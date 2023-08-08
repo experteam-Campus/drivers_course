@@ -1035,3 +1035,9 @@ span.icon.fa.fa-chevron-prev {
 .inputtype.option-input select:hover {
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
 }
+
+
+.xmodule_display.xmodule_ProblemBlock div.problem div p.answer::before {
+    display: inline;
+    content: "תשובה: " !important;
+}
