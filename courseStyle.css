@@ -1025,7 +1025,7 @@ span.icon.fa.fa-chevron-prev {
 .inputtype.option-input select {
     transition: box-shadow 0.3s ease-in-out;
     border-radius: var(--borderRadius2);
-    background: #ccc !important;
+    background-color: #ccc !important;
     box-shadow: -5px 5px 0px 0px rgba(0, 0, 0, 0.2);
     border: 2px solid rgba(0, 0, 0, 0.2) !important;
     width: calc(100% - 5px);
