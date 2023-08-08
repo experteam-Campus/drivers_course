@@ -1019,3 +1019,19 @@ span.icon.fa.fa-chevron-prev {
 .xmodule_display.xmodule_VideoBlock .video .video-wrapper .closed-captions.is-visible {
     direction: ltr !important;
 }
+
+
+
+.inputtype.option-input select {
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: var(--borderRadius2);
+    background: #ccc;
+    box-shadow: -5px 5px 0px 0px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    width: calc(100% - 5px);
+}
+
+
+.inputtype.option-input select:hover {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
