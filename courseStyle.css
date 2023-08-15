@@ -26,6 +26,16 @@ header.global-header {
     display: none;
 }
 
+
+/*SUBTITLES*/
+.xmodule_display.xmodule_VideoBlock .video .video-wrapper .closed-captions.is-visible {
+    max-height: 60px;
+    border-radius: 4px;
+    padding: 8px 10px 8px 30px;
+    background: rgba(0,0,0,0.75);
+    color: #e2c01f !important;
+}
+
 /* ??? */
 
 
