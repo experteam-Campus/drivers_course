@@ -1156,6 +1156,25 @@ background-color: #502064;
 }
 
 
+.story{
+ border: 2px dashed #FFBD35;
+    border-radius: 16px;
+    -webkit-box-shadow: 5px 9px 15px -6px rgba(0,0,0,0.74);
+    box-shadow: 5px 9px 15px -6px rgba(0,0,0,0.74);
+    padding: 20px;
+}
+
+  .storyCaseTitle{
+    margin: 0 !important;
+    position: relative !important;
+    top: -46px !important;
+    right: 10px !important;  
+  }
+
+
+
+
+
 /*delete after*/
 
 
