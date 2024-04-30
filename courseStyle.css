@@ -1173,7 +1173,13 @@ background-color: #502064;
 
 
 
-
+.story2{
+ border: 2px dashed #126f9a;
+    border-radius: 16px;
+    -webkit-box-shadow: 5px 9px 15px -6px rgba(0,0,0,0.74);
+    box-shadow: 5px 9px 15px -6px rgba(0,0,0,0.74);
+    padding: 20px;
+}
 
 /*delete after*/
 
